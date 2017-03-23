@@ -1,0 +1,17 @@
+"Data from Gil, M.A. and A.M Hein. 2017. ""Social interactions among grazing reef fish drive material flux in a coral reef ecosystem."" Proceedings of the National Academy of Sciences.",
+,
+Dataset:,Bite Rate
+Description:,These data were collected from videos from our field experiment. This dataset contains observations of individual fish bite rates within monitored foraging areas.
+,
+Variable,Description
+trial_num,The numeric identifier associated with the observed trial
+site,"The site where the trial was conducted, either ""E"" or ""W"""
+fish,"The abbreviated species name for the observed fish, A.nigrofuscus = Acanthurus nigrofuscus, C.striatus = Ctenochaetus striatus, C.sordidus = Chlorurus sordidus, Z.scopas = Zebrasoma scopas"
+entr_time,"The time in the observed video clip in which the fish entered the monitored foraging area, in format HH:MM:SS"
+exit_time,"The time in the observed video clip in which the fish exited the monitored foraging area, in format HH:MM:SS"
+init_fish_ct,The number of fish in the foraging area when the focal fish entered
+fin_fish_ct,The number of fish in the foraging area when the focal fish exited
+avg_fish_ct,The average number of fish in the foraging area when the observed fish was in the foraging area: (initial count + final count )/2
+time_in,The number of seconds the focal fish was inside the foraging area
+bites,The number of bites the fish took while inside the foraging area
+bite_rate,The number of bites taken divided by the number of seconds the focal fish was inside the foraging area
